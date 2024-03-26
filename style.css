@@ -332,7 +332,7 @@ h3{
     width: 90%
     height: 250px;
     background: hidden;
-    box-shadow: 1px 8px 10px 2px ;
+    box-shadow: 1px 8px 10px 2px .5s ;
     overflow: hidden;
     padding: 10px;
     cursor: pointer;
@@ -351,17 +351,14 @@ h3{
     width: 90%
     height: 250px;
     background: hidden;
-    box-shadow: 1px 8px 10px 2px ;
+    box-shadow: 1px 8px 10px 2px.4s ;
     overflow: hidden;
     cursor: pointer;
     padding: 10px;
 }
-.hci{
-  display: fl
-}
 .hci::after{
 content: "";
-    position: absolute;
+    position: relative;
     bottom: 100;
     background: hidden;
     width: 100%;

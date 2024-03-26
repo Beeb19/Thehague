@@ -35,7 +35,7 @@ function headerShadow() {
 var typingEffect = new Typed(".typedText",{
   strings : ["Designer","Student",""],
   loop : true,
-  typeSpeed : 100, 
+  typeSpeed : 40, 
   backSpeed : 80,
   backDelay : 2000
 })
@@ -60,18 +60,6 @@ sr.reveal('.featured-image',{delay: 300})
 
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
-/*hci box*/
-  function showSection(sectionId) {
-      var sections = document.querySelectorAll('section');
-      for (var i = 0; i < sections.length; i++) {
-        var section = sections[i];
-        if (section.id === #hci) {
-          section.classList.remove("hci-box");
-        } else {
-          section.classList.add("ml-box");
-        }
-      }
-    }
     
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
