@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+
+    <title>Portfolio | Beeb</title>
+</head>
+<body>
+   <div class="container">
+    <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Beeb</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="#home" class="nav-link active-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <div class="circle"></div>
+                </li>
+            </ul>
+        </div><!--
+        <div class="nav-button">
+            <button class="btn">Download CV <i class="uil uil-file-alt"></i></button>
+        </div>-->
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+
+    <!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Yusuf Habeeb</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm a <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>Intermediate Frontend Developer ,Graphics Designer & a Student.
+                </p>
+            </div><!--
+            <div class="featured-text-btn">
+                <button class="btn blue-btn">Hire Me</button>
+                <button class="btn">Download  <i class="uil uil-file-alt"></i></button>
+            </div>-->
+            <div class="social_icons">
+                <div class="icon"><i class="uil uil-instagram"></i></div>
+                <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+                <div class="icon"><i class="uil uil-dribbble"></i></div>
+                <div class="icon"><i class="uil uil-behance-alt"></i></div>
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.jpg" alt="avatar">
+            </div>
+          </div><!--
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div-->
+
+       </section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I am well-versed in HTML, CSS and a little bit of JavaScript , and other cutting edge
+                       frameworks and libraries.
+                       Additionally, I have experirence working as a Graphics designer
+                    </p><!--
+                    <div class="about-btn">
+                        <button class="btn">Download CV <i class="uil uil-import"></i></button>
+                    </div>-->
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>Bootstrap</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span>Python</span>
+                        <span>C++</span>
+                    </div>
+                </div>
+              
+       </section>
+
+       <!-- -------------- PROJECT BOX ---------------- -->
+
+       <section class="section" id="projects">
+          <div class="top-header">
+              <h1>Projects</h1>
+          </div>
+          <div class="project-container">
+            <div class="project-box">
+                <i class="uil uil-briefcase-alt"></i>
+                <h3>HCI </h3>
+              <label>HCI in relation to multimedia</label>
+               <a href="#hci" class="project-sub" onclick="showSection('hci')">Click to see more</a>
+            </div>
+            <div class="project-box">
+                <i class="uil uil-users-alt"></i>
+                <h3>Machine Learning</h3>
+                <label>Machine Learning for Cybersecurity</label>
+                <a href="#ml" class="project-sub" onclick="showSection('ml')">Click to see more</a>
+            </div>
+          </div>
+       </section>
+   <section class="hci" id="hci">
+     <div class="hci-box">
+     <p>
+In the context of Human-Computer Interaction (HCI), multimedia and hypermedia are two important concepts that enhance user experiences by incorporating various forms of media and interactivity. Here's a brief explanation of each:
+<br>
+1. **Multimedia:**
+   - Multimedia refers to the integration of different types of media such as text, images, audio, video, and animations in digital interfaces.
+   - In HCI, multimedia is used to create engaging and immersive user experiences by presenting information and content in multiple formats.
+   - Examples of multimedia in HCI include interactive presentations, educational software, video conferencing applications, multimedia websites, and multimedia messaging services (MMS).
+   - Multimedia interfaces leverage the strengths of various media types to convey information more effectively, cater to diverse learning styles, and enhance user engagement and comprehension.
+<br>
+2. **Hypermedia:**
+   - Hypermedia extends the concept of multimedia by incorporating hyperlinks that allow users to navigate non-linearly between different pieces of content.
+   - In HCI, hypermedia environments enable users to explore interconnected information and resources in a non-linear fashion, following their interests and preferences.
+   - The World Wide Web is a prime example of hypermedia, where users can navigate between web pages by clicking on hyperlinks embedded within text, images, or other media elements.
+   - Hypermedia interfaces provide users with flexibility and freedom to access information in a personalized and interactive manner, promoting exploration and discovery.
+<br>
+In HCI, both multimedia and hypermedia play significant roles in designing interfaces that are engaging, informative, and user-friendly. By leveraging the capabilities of multimedia and hypermedia, designers can create rich and interactive user experiences that cater to the diverse needs and preferences of users.
+     </p>
+     </div>
+   </section>
+   <section class="ml" id="ml">
+     <div class="ml-box">
+       <p>
+Machine learning plays a significant role in mitigating cybersecurity challenges by offering various solutions:
+<br>
+1. **Anomaly Detection**: Machine learning algorithms can identify abnormal patterns in network traffic, user behavior, or system activity, which could indicate potential security breaches or intrusions.
+<br>
+2. **Threat Detection and Prevention**: ML models can be trained to recognize known malware signatures and behaviors, helping to detect and prevent cyber threats such as viruses, worms, and ransomware.
+<br>
+3. **Predictive Analysis**: By analyzing historical data and identifying trends, machine learning algorithms can predict potential cyber threats and vulnerabilities, allowing organizations to proactively strengthen their security measures.
+<br>
+4. **Behavioral Analysis**: ML techniques can analyze user behavior to identify deviations from normal patterns, helping to detect insider threats and unauthorized access attempts.
+<br>
+5. **Fraud Detection**: In financial sectors, machine learning models can detect fraudulent transactions by analyzing patterns and anomalies in transaction data.
+<br>
+6. **Phishing Detection**: ML algorithms can analyze email content and user behavior to identify phishing attempts and malicious emails, helping to protect against social engineering attacks.
+<br>
+7. **Automated Response**: Machine learning-powered systems can automate responses to certain types of cyber threats, enabling rapid detection and mitigation of security incidents.
+<br>
+8. **Vulnerability Management**: ML algorithms can assist in identifying and prioritizing software vulnerabilities, helping organizations allocate resources effectively to patch critical security flaws.
+<br>
+Overall, machine learning enhances cybersecurity by providing advanced detection, prediction, and response capabilities, helping organizations stay ahead of evolving cyber challenges.
+       </p>
+     </div>
+   </section>
+       <!-- -------------- CONTACT BOX ---------------- -->
+
+       <section class="section" id="contact">
+          <div class="row">
+             <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i> Email: beebempire@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +234 905 235 2154</p>
+                </div>
+             </div>
+             <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Name">
+                        <input type="text" class="input-field" placeholder="Email">
+                    </div>
+                    <div class="text-area">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send <i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+             </div>
+          </div>
+       </section>
+
+    </main>
+
+
+    <!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Yusuf Habeeb.</p>
+            <p>SCI/20/21/0836</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <div class="icon"><i class="uil uil-instagram"></i></div>
+            <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+            <div class="icon"><i class="uil uil-dribbble"></i></div>
+            <div class="icon"><i class="uil uil-behance-alt"></i></div>
+        </div><!--
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Beeb</a> - All rights reserved</p>
+        </div>-->
+    </footer>
+
+    </div>
+
+
+
+
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+       <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+</html>
