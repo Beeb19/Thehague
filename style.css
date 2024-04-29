@@ -180,7 +180,7 @@ nav{
     padding-left: 20px;
 }
 .featured-text-card span{
-    background: var(--third-color);
+    background: cornflowerblue;
     color: var(--color-white);
     padding: 3px 8px;
     font-size: 12px;
@@ -319,6 +319,9 @@ h3{
   text-decoration: none;
   display: flex;
 }
+.btn-hci{
+  background: none;
+}
 /* Project info */
 .hci-box{
      color: black;
@@ -336,6 +339,8 @@ h3{
     overflow: hidden;
     padding: 10px;
     cursor: pointer;
+    text-decoration: none;
+    
  
 }
 .ml-box{
